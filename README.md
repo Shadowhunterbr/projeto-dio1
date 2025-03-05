@@ -32,7 +32,7 @@ classDiagram
         +String description
     }
 
-    User --> Account
-    User --> Card
+    User "1" --> "1" Account
+    User "1" --> "1..N"Card
     User --> "*" Feature
     User --> "*" News
